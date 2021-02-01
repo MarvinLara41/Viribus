@@ -29,7 +29,7 @@ const data = {
       image: "/images/proteins/whey5.jpg",
       price: 45,
       brand: "Nutrition",
-      rating: 3.8,
+      rating: 1.8,
       numReviews: 10,
       description: "100% whey protein",
     },
