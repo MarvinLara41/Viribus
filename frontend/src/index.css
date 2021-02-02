@@ -34,6 +34,16 @@ a:hover {
   color: #b22222;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+li {
+  margin-top: 1rem;
+}
+
 h1 {
   font-size: 1.8rem;
   padding: 1rem 0;
@@ -46,6 +56,25 @@ h2 {
 
 header a {
   padding: 1rem;
+}
+
+button {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem #a4a4a4 solid;
+  cursor: pointer;
+}
+
+button.primary {
+  background-color: #f0c040;
+}
+
+button.block {
+  width: 100%;
+}
+
+button:hover {
+  border: 0.1rem #404040 solid;
 }
 
 /** Setting the grid-area to the header in grid-template-areas, which is 5rem**/
@@ -80,6 +109,31 @@ footer {
   justify-content: center;
 }
 
+.row.top {
+  margin: auto;
+  padding: 2rem;
+  align-items: flex-start;
+}
+
+/** styling to productScreen*/
+.col-1 {
+  flex: 1 1 25rem;
+}
+
+.col-2 {
+  flex: 2 1 30rem;
+  margin: auto;
+  padding: 5rem;
+}
+
+.success {
+  color: #20a020;
+}
+
+.error {
+  color: red;
+}
+
 /** Image**/
 img {
   border-radius: 0.5rem;
@@ -87,6 +141,10 @@ img {
 
 img.medium {
   max-width: 29rem;
+  width: 100%;
+}
+
+img.large {
   width: 100%;
 }
 
@@ -115,4 +173,8 @@ img.medium {
 .rating span {
   color: gold;
   margin: 0.1rem;
+}
+
+.rating span:last-child {
+  color: black;
 }
