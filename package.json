@@ -1,0 +1,26 @@
+{
+  "name": "viribus",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "an online supplement ecommers store",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarvinLara41/Viribus.git"
+  },
+  "author": "Marvin Lara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarvinLara41/Viribus/issues"
+  },
+  "homepage": "https://github.com/MarvinLara41/Viribus#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
