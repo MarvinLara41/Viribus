@@ -130,7 +130,7 @@ footer {
   color: #20a020;
 }
 
-.error {
+.danger {
   color: red;
 }
 
@@ -177,4 +177,21 @@ img.large {
 
 .rating span:last-child {
   color: black;
+}
+
+/** */
+.alert {
+  padding: 1rem;
+  border: 0.1rem solid transparent;
+  border-radius: 0.5rem;
+}
+
+.alert-info {
+  color: #2020a0;
+  background-color: #e0e0ff;
+}
+
+.alert-error {
+  color: #a02020;
+  background-color: #ffe0e0e0;
 }
